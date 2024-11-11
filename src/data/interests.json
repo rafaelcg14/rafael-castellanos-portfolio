@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Data Analytics",
+        "description": "Extracting insights and driving decisions through data visualization, analysis, and predictive models.",
+        "iconPath": "about/analytics.svg"
+    },
+    {
+        "title": "Artificial Intelligence",
+        "description": "Building intelligent systems with Azure AI resources for several tasks.",
+        "iconPath": "about/ai.svg"
+    },
+    {
+        "title": "Front-End",
+        "description": "Creating responsive, user-friendly interfaces with modern web technologies such as React and Angular.",
+        "iconPath": "about/frontend.svg"
+    }
+]

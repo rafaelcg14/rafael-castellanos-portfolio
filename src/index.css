@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+
+    scrollbar-color: var(--color-accent) #151515;
+    scrollbar-width: auto;
+}
+
+body {
+    position: absolute;
+    z-index: -2;
+    height: 100vh;
+    width: 100%;
+    background-color: var(--color-bg);
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 4.5rem;
+}
+
+/* @media screen and (max-width: 830px) {
+    html {
+        scroll-padding-top: 0px;
+    }
+} */

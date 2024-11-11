@@ -1,0 +1,67 @@
+@import '../../vars.css';
+
+.container {
+    max-width: 56rem;
+    margin-inline: auto;
+    padding-bottom: 9rem;
+    /* background: #555; */
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.5rem;
+}
+
+.title img {
+    width: 1.5rem;
+}
+
+.title h1 {
+    color: var(--color-text);
+    padding-left: .75rem;
+    font-family: var(--font-montserrat);
+}
+
+.projects {
+    /* background-color: rebeccapurple; */
+    display: grid;
+    grid-template-columns: repeat( auto-fill, minmax(20rem, 1fr) );
+    /* grid-template-columns: 1fr 1fr; */
+    /* place-items: center; */
+    /* place-content: center; */
+    gap: 2rem;
+    /* width: 100%; */
+    margin: 0 auto;
+
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        max-width: 48rem;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .container {
+        max-width: 40rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 36rem;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .container {
+        max-width: 30rem;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .container {
+        max-width: 24rem;
+    }
+}

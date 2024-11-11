@@ -1,0 +1,64 @@
+[
+    {
+        "title": "Uber Trip Record Analysis",
+        "description": "This data analytics project is to perform my current skills in the field to a new level by handling NYC Uber Trip Records Data in 2016.",
+        "imageSrc": "https://res.cloudinary.com/dtzfvm1m9/image/upload/v1731359262/portfolio/Uber%20Trips%20Analysis/rtdroje90zu1x6j5tewr.png",
+        "githubUrl": "https://github.com/rafaelcg14/da-uber-project",
+        "skills": [
+            {
+                "skillName": "Python",
+                "skillIcon": "skills/python-icon.svg"
+            },
+            {
+                "skillName": "PostgreSQL",
+                "skillIcon": "skills/postgresql-icon.svg"
+            },
+            {
+                "skillName": "Power BI",
+                "skillIcon": "skills/powerbi-icon.svg"
+            },
+            {
+                "skillName": "Docker",
+                "skillIcon": "skills/docker-icon.svg"
+            }
+        ],
+        "images": [
+            {
+                "id": 1,
+                "imgName": "Entity-Relationship Diagram",
+                "imgUrl": "https://res.cloudinary.com/dtzfvm1m9/image/upload/v1731359231/portfolio/Uber%20Trips%20Analysis/vwzrvngbooeqes4tk3lr.png"
+            },
+            {
+                "id": 2,
+                "imgName": "Dashboard - Summary",
+                "imgUrl": "https://res.cloudinary.com/dtzfvm1m9/image/upload/v1731361627/portfolio/Uber%20Trips%20Analysis/obe1nngw7wzebtoyvin3.png"
+            },
+            {
+                "id": 3,
+                "imgName": "Dashboard - Trip Locations",
+                "imgUrl": "https://res.cloudinary.com/dtzfvm1m9/image/upload/v1731273185/portfolio/Uber%20Trips%20Analysis/ewxmtxit45k1qvnd7f8y.png"
+            },
+            {
+                "id": 4,
+                "imgName": "Dashboard - Payment and Rate",
+                "imgUrl": "https://res.cloudinary.com/dtzfvm1m9/image/upload/v1731361627/portfolio/Uber%20Trips%20Analysis/mmtcglrw06envsamzi7s.png"
+            }
+        ]
+    },
+    {
+        "title": "Uber Trip Record Analysis dasdsaasdsd",
+        "description": "Biblioteca de logos SVG de las marcas más populares. +10k visitas al mes. +2K svgs descargados. Creado desde cero con Next.js, React y Tailwind CSS.",
+        "imageSrc": "https://porfolio.dev/projects/svgl.webp",
+        "githubUrl": "https://github.com/rafaelcg14/da-uber-project",
+        "skills": [
+            {
+                "skillName": "Python",
+                "skillIcon": "skills/python-icon.svg"
+            },
+            {
+                "skillName": "Tableau",
+                "skillIcon": "skills/tableau-icon.svg"
+            }
+        ]
+    }
+]

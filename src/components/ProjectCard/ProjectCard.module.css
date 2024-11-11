@@ -1,0 +1,88 @@
+@import '../../vars.css';
+
+.container {
+    /* width: 23rem; */
+    /* height: 23rem; */
+    aspect-ratio: 16/9;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    color: #fff;
+    /* box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2); */
+}
+
+.cardContent {
+    /* background: #222; */
+    display: flex;
+    flex-direction: column;
+    max-width: 432px;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.projectImg {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    transition: opacity  .2s ease-out;
+}
+
+.title {
+    color: var(--color-accent);
+    font-size: 1.25rem;
+    font-weight: 900;
+    padding-block: 12px;
+    position: absolute;
+    inset: auto auto 30px 30px;
+    margin: 0;
+    opacity: 0;
+    transition: inset .3s .3s ease-out;
+}
+
+.description, .seeDetails {
+    position: absolute;
+    opacity: 0;
+    max-width: 80%;
+    transition: opacity .3 ease-out;
+}
+
+.description {
+    inset: 80px 30px;
+}
+
+.seeDetails {
+    inset: 190px 30px;
+    color: inherit;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.container:hover .title {
+    inset: 10px 30px;
+    transition: inset .3s ease-out;
+}
+
+.container:hover .seeDetails {
+    color: var(--color-primary);
+}
+  
+.container:hover .description, .container:hover .seeDetails, .container:hover .title {
+    opacity: 1;
+    transition: opacity .3s .1s ease-in;
+}
+  
+.container:hover .projectImg {
+    transition: filter .3s ease-in;
+    filter: brightness(0.3) blur(5px);
+}
+
+@media screen and (max-width: 1024px) {
+    .cardContainer {
+        max-width: 360px;
+    }
+}

@@ -1,0 +1,55 @@
+@import '../../vars.css';
+
+.container {
+    max-width: 56rem;
+    margin-inline: auto;
+    margin-bottom: 4rem;
+    display: flex;
+    color: #fff;
+    font-size: 0.75rem;
+    justify-content: space-between;
+}
+
+.aboutMe {
+    text-decoration: none;
+    color: #fff;
+
+    transition: color 0.3s;
+}
+
+.aboutMe:hover {
+    color: var(--color-accent);
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        max-width: 48rem;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .container {
+        max-width: 40rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 36rem;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .container {
+        max-width: 30rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .container {
+        max-width: 24rem;
+    }
+}

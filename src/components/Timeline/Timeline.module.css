@@ -1,0 +1,85 @@
+@import '../../vars.css';
+
+.box {
+    margin: 50px 0;
+    padding: 10px 20px;
+    width: 100%;
+    position: relative;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    gap: 2rem;
+
+    >span {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -20px;
+        height: 100%;
+        border: 1px solid #ccc;
+
+        &:before {
+            content: "";
+            position: absolute;
+            left: -7px;
+            width: 10px;
+            height: 10px;
+            border: 2px solid #ccc;
+            background: var(--color-accent);
+            border-radius: 100%;
+        }
+
+        &:before {
+            top: -12px;
+        }
+
+        &:after {
+            top: 100%;
+        }
+    }
+
+    .timelineTitle, .timelineCompanyName {
+        font-size: 1rem;
+        color: var(--color-accent);
+        font-weight: 900;
+        letter-spacing: 2px;
+    }
+
+    .timelineTitle{ 
+        margin-top: 10px;
+        margin-bottom: 0.5rem;
+    }
+    
+    .timelineCompanyName {
+        color: var(--color-text);
+        margin-bottom: 0.5rem;
+    }
+
+    .timelineSubtitle {
+        font-size: 0.6rem;
+        color: #aaa;
+        letter-spacing: 2px;
+    }
+
+    .timelineInfo {
+        margin: 10px 0;
+        color: var(--color-text);
+        font-weight: lighter;
+        font-size: 1rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: var(--color-primary);
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .box {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+}

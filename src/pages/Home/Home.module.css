@@ -1,0 +1,138 @@
+@import '../../vars.css';
+
+.container {
+    max-width: 56rem;
+    margin-inline: auto;
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+}
+
+.homeHeader {
+    width: max-content;
+    display: flex;
+    gap: 1.25rem;
+    align-items: center;
+}
+
+.heroImg {
+    border-radius: 100%;
+    width: 60px;
+}
+
+.availability {
+    min-width: fit-content;
+    background-color: var(--color-primary-50);
+    border: 1px solid var(--color-primary);
+    color: var(--color-text);
+    font-weight: 300;
+    padding-inline: 1rem;
+    padding-block: 0.25rem;
+    border-radius: 28px;
+    height: fit-content;
+}
+
+.descContainer {
+    max-width: 42rem;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: var(--color-text);
+    padding-block: 1rem;
+}
+
+.presentation {
+    font-size: 1.25rem;
+    color: var(--color-text);
+    font-weight: lighter;
+
+    span {
+        color: var(--color-accent);
+        font-weight: 700;
+    }
+
+    .location {
+        color: var(--color-primary);
+    }
+}
+
+.itemsContainer {
+    display: flex;
+    gap: 0.5rem;
+    padding-top: 1.5rem;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    min-width: fit-content;
+    background-color: transparent;
+    border: 1px solid var(--color-primary);
+    border-radius: 28px;
+    padding-inline: 1rem;
+    padding-block: 0.25rem;
+    text-decoration: none;
+    gap: 0.5rem;
+    align-items: center;   
+    font-weight: 700;
+
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.item img {
+    width: 14px;
+    height: 14px;
+
+    transition: filter 0.3s;
+}
+
+.item span {
+    text-decoration: none;
+    color: var(--color-text);
+
+    transition: color 0.3s;
+}
+
+.item:hover {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+}
+
+.item:hover span {
+    color: var(--color-bg);
+}
+
+.item:hover img {
+    filter: invert(100%) sepia(5%) saturate(400%) hue-rotate(200deg) brightness(90%);
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        max-width: 48rem;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .container {
+        max-width: 40rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 36rem;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .container {
+        max-width: 30rem;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .container {
+        max-width: 24rem;
+    }
+}

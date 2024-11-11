@@ -1,0 +1,44 @@
+@import '../../vars.css';
+
+.navbar {
+    position: fixed;
+    /* background-color: mediumslateblue; */
+    width: 100%;
+    min-height: 4rem;
+    display: grid;
+    padding: 0.5rem 1rem;
+    z-index: 11;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu {
+    display: grid;
+    place-content: center;
+}
+
+/* Menu items */
+.menuItems {
+    border-radius: 28px;
+    border: 2px solid var(--color-secondary);
+    background-color: var(--color-secondary-gray);
+    padding: 0.5rem 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+.menuItems a {
+    text-decoration: none;
+    font-size: 0.875rem;
+    color: var(--color-text);
+    font-weight: bold;
+    font-family: var(--font-montserrat);
+    transition: color 0.3s ease-in-out;
+}
+
+/* Active section link */
+.menuItems a.active {
+    color: var(--color-accent);
+    font-size: 1rem;
+}

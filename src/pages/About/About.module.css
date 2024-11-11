@@ -1,0 +1,87 @@
+@import '../../vars.css';
+
+.container {
+    max-width: 56rem;
+    margin-inline: auto;
+    padding-bottom: 9rem;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.5rem;
+}
+
+.title img {
+    width: 1rem;
+}
+
+.title h1 {
+    color: var(--color-text);
+    padding-left: .75rem;
+    font-family: var(--font-montserrat);
+}
+
+.content {
+    background-color: var(--color-secondary-25);
+    border-radius: 8px;
+    padding: 2rem;
+}
+
+.description {
+    color: var(--color-text);
+    font-size: 1rem;
+
+    span {
+        color: var(--color-primary);
+        font-weight: 700;
+    }
+}
+
+.description p:not(:last-child) {
+    padding-bottom: 1rem;
+}
+
+.content h3 {
+    color: var(--color-accent);
+    font-size: 1.25rem;
+    padding-bottom: 1rem;
+}
+
+.interestsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        max-width: 48rem;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .container {
+        max-width: 40rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 36rem;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .container {
+        max-width: 30rem;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .container {
+        max-width: 24rem;
+    }
+}
