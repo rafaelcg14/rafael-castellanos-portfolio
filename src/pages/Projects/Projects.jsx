@@ -19,6 +19,7 @@ export const Projects = () => {
                             <ProjectCard 
                                 title={ project.title }
                                 description={ project.description }
+                                introduction={ project.introduction }
                                 imageSrc={ project.imageSrc }
                                 githubUrl={ project.githubUrl }
                                 skills={ project.skills }

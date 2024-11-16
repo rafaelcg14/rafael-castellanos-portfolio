@@ -59,7 +59,7 @@ export const ProjectModal = ( {isOpened, onClose, details} ) => {
                     <div className={styles.presentation}>
                         <div className={styles.contentItem}>
                             <h2 className={styles.titleProject}>{details.title}</h2>
-                            <p className={styles.descriptionProject}>{details.description}</p>
+                            <p className={styles.descriptionProject}>{details.introduction}</p>
                             <a href={details.githubUrl} className={styles.linkProject} target="_blank">{details.githubUrl}</a>
                             <div className={styles.skills}>
                                 { details.skills.map( (skill, id) => {

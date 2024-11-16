@@ -2,6 +2,7 @@
     {
         "title": "Uber Trip Record Analysis",
         "description": "This data analytics project is to perform my current skills in the field to a new level by handling NYC Uber Trip Records Data in 2016.",
+        "introduction": "This data analytics project is to perform my current skills in the field to a new level by handling NYC Uber Trip Records Data in 2016.",
         "imageSrc": "https://res.cloudinary.com/dtzfvm1m9/image/upload/v1731359262/portfolio/Uber%20Trips%20Analysis/rtdroje90zu1x6j5tewr.png",
         "githubUrl": "https://github.com/rafaelcg14/da-uber-project",
         "skills": [
@@ -46,18 +47,49 @@
         ]
     },
     {
-        "title": "Uber Trip Record Analysis dasdsaasdsd",
-        "description": "Biblioteca de logos SVG de las marcas más populares. +10k visitas al mes. +2K svgs descargados. Creado desde cero con Next.js, React y Tailwind CSS.",
-        "imageSrc": "https://porfolio.dev/projects/svgl.webp",
-        "githubUrl": "https://github.com/rafaelcg14/da-uber-project",
+        "title": "Chat It Up!",
+        "description": "Contains the backend implementation of a Retrieval-Augmented Generation (RAG) chatbot powered by Azure services.",
+        "introduction": "Developed as part of a Microsoft Hackathon, this project is the backend of a Retrieval-Augmented Generation (RAG) chatbot. It integrates Azure Blob Storage, Azure Cognitive Search, and OpenAI GPT models to enable seamless AI-driven interactions. The backend facilitates file uploads, document indexing, and dynamic chatbot responses, showcasing expertise in cloud services, API development, and real-time AI applications. Designed for local deployment, it highlights innovative solutions for managing unstructured data in conversational AI.",
+        "imageSrc": "https://res.cloudinary.com/dtzfvm1m9/image/upload/v1731468830/portfolio/chat-it-up/y4gwsjwavols20xjubju.png",
+        "githubUrl": "https://github.com/rafaelcg14/chat-it-up-rag",
         "skills": [
             {
                 "skillName": "Python",
                 "skillIcon": "skills/python-icon.svg"
             },
             {
-                "skillName": "Tableau",
-                "skillIcon": "skills/tableau-icon.svg"
+                "skillName": "FastAPI",
+                "skillIcon": "skills/fastapi-icon.svg"
+            },
+            {
+                "skillName": "Angular",
+                "skillIcon": "skills/angular-icon.svg"
+            },
+            {
+                "skillName": "TypeScript",
+                "skillIcon": "skills/typescript-icon.svg"
+            }
+        ],
+        "images": [
+            {
+                "id": 1,
+                "imgName": "Process of the RAG Implementation",
+                "imgUrl": "https://res.cloudinary.com/dtzfvm1m9/image/upload/v1731682216/portfolio/chat-it-up/nzdrtyk7yida5lxuqldt.jpg"
+            },
+            {
+                "id": 2,
+                "imgName": "Checking the Blob Storage",
+                "imgUrl": "https://res.cloudinary.com/dtzfvm1m9/image/upload/v1731468632/portfolio/chat-it-up/us4fwtjw41la1c8djglc.png"
+            },
+            {
+                "id": 3,
+                "imgName": "File Uploader",
+                "imgUrl": "https://res.cloudinary.com/dtzfvm1m9/image/upload/v1731711537/portfolio/chat-it-up/o9ghscyrz4xkgtk12hxf.png"
+            },
+            {
+                "id": 4,
+                "imgName": "Chatbot",
+                "imgUrl": "https://res.cloudinary.com/dtzfvm1m9/image/upload/v1731468632/portfolio/chat-it-up/hqjxkn0dpijmc2gspt0q.png"
             }
         ]
     }

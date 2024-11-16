@@ -53,6 +53,7 @@
 
 .description {
     inset: 80px 30px;
+    text-overflow: ellipsis;
 }
 
 .seeDetails {

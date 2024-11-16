@@ -4,7 +4,7 @@ import { ProjectModal } from '../../components/ProjectModal/ProjectModal';1
 
 import styles from './ProjectCard.module.css';
 
-export const ProjectCard = ( { title, description, imageSrc, githubUrl, skills, images } ) => {
+export const ProjectCard = ( { title, description, introduction, imageSrc, githubUrl, skills, images } ) => {
     
     const [ isModalOpened, setisModalOpened ] = useState(false);
 
@@ -19,7 +19,7 @@ export const ProjectCard = ( { title, description, imageSrc, githubUrl, skills, 
                 className={styles.projectModal} 
                 isOpened={isModalOpened} 
                 onClose={ () => setisModalOpened(false) }
-                details={{title, description, imageSrc, githubUrl, skills, images}}
+                details={{title, description, imageSrc, githubUrl, skills, images, introduction}}
             />
             
             <div className={styles.container} onClick={ () => setisModalOpened(!isModalOpened) }>

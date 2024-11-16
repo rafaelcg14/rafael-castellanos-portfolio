@@ -23,11 +23,11 @@ export const Home = () => {
                     <img src={getImageUrl('contact/envelope-icon.svg')} alt="Email icon" />
                     <span>Contact Me</span>
                 </a>
-                <a className={styles.item} href="https://www.google.com">
+                <a className={styles.item} href="https://drive.google.com/file/d/1bDJlYBYUzWNE69o0rnfWrvTWA2CWM-yK/view?usp=sharing" target="_blank">
                     <img src={getImageUrl('contact/file-icon.svg')} alt="Resume icon" />
                     <span>Resume</span>
                 </a>
-                <a className={styles.item} href="https://www.linkedin.com/in/rafael-castellanos-guzman">
+                <a className={styles.item} href="https://www.linkedin.com/in/rafael-castellanos-guzman" target="_blank">
                     <img src={getImageUrl('contact/linkedin-icon.svg')} alt="LinkedIn icon" />
                     <span>LinkedIn</span>
                 </a>
