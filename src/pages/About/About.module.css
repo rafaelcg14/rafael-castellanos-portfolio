@@ -23,7 +23,7 @@
 }
 
 .content {
-    background-color: var(--color-secondary-25);
+    background-color: var(--color-primary-25);
     border-radius: 8px;
     padding: 2rem;
 }
@@ -83,5 +83,11 @@
 @media screen and (max-width: 530px) {
     .container {
         max-width: 24rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .container {
+        max-width: 20rem;
     }
 }

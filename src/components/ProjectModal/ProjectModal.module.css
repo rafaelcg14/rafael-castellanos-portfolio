@@ -14,7 +14,7 @@
 }
 
 .container {
-    background-color: var(--color-secondary-dark);
+    background-color: var(--color-primary-gray);
     position: relative;
     margin-left: 10%;
     margin-right: 10%;
@@ -139,13 +139,13 @@
     min-width: fit-content;
     flex-wrap: wrap;
     padding-bottom: 0.5rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 3rem;
 }
 
 .skill {
     display: flex;
     flex-direction: row;
-    background-color: var(--color-secondary-gray);
+    background-color: var(--color-primary-75);
     padding-inline: .5rem;
     padding-block: .25rem;
     gap: .5rem;
@@ -161,7 +161,7 @@
 
 .skillName {
     font-size: 0.75rem;
-    color: #ccc;
+    color: var(--color-text);
     letter-spacing: .5px;
     font-weight: 300;
     font-family: var(--font-quicksand);

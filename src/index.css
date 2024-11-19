@@ -4,7 +4,7 @@
     padding: 0;
     font-family: 'Quicksand', Arial, Helvetica, sans-serif;
 
-    scrollbar-color: var(--color-accent) #151515;
+    scrollbar-color: var(--color-primary) #151515;
     scrollbar-width: auto;
 }
 

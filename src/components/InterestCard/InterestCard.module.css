@@ -1,7 +1,7 @@
 @import '../../vars.css';
 
 .cardContainer {
-    background-color: var(--color-secondary-30);
+    background-color: var(--color-primary-50);
     max-width: 16.5rem;
     /* max-width: 18rem; */
     display: flex;
@@ -25,4 +25,14 @@
 .description {
     color: var(--color-text);
     font-size: 1rem;
+}
+
+@media screen and (max-width: 430px) {
+    .cardContainer {
+        width: 16.5rem;
+    }
+
+    .description {
+        display: none;
+    }
 }

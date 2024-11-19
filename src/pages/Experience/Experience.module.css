@@ -74,3 +74,9 @@
         max-width: 24rem;
     }
 }
+
+@media screen and (max-width: 430px) {
+    .container {
+        max-width: 20rem;
+    }
+}
